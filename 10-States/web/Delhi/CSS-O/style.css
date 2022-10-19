@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+background-image:linear-gradient(0deg, white,orange,white,orange) ;
+}
+
+
+header h1{
+    top: 6vh;
+    left:-80px;
+    position: absolute;
+    padding: 2vh 7vw 2vh 20vw;
+    border-radius: 10px;
+    background-color: rgba(186, 228, 192, 0.4);
+}
+
+.sub-head{
+    top: 14vh;
+    position: absolute;
+    right: 0px;
+    
+
+}
+header ul{
+    border-radius: 0px;
+    list-style: none;
+    display: flex;
+    padding-right:1vw ;
+    background-color: rgba(151, 175, 196, 0.6);
+}
+
+header ul li{
+    margin: 2vh 1vw 2vh 0.2vw;
+    border-radius: 40px ;
+    background-color: rgba(108, 115, 121, 0.5);
+    padding: 10px 20px;
+    cursor: pointer;
+}
+header ul li:hover{
+    background-color: rgba(219, 226, 231, 0.6);  
+}
+
+
+
+.map{
+    display: flex;
+margin:35vh 2vw 0vh 2vw ;
+align-items: center;
+    
+}
+.map .Description{
+    margin-right: 5vw;
+    background-color: rgb(199, 211, 221,0.4);
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.map .map-IO img{
+    height: 50vh;
+}
+
+.map .map-O img{
+    margin-left:0vw;
+        height: 50vh;
+ }
+
+ .place-head{
+    margin-top: 8vh;
+ text-align: center;
+ }
+ 
+ 
+ .place-head h1{
+    margin: 0px 30vw 0px 30vw;
+   border-radius: 40px;
+    background-color: rgb(224, 217, 208,0.6);
+    
+ }
+ 
+/*     place-1     */
+
+ .place1{
+    border-radius: 30px;
+    background-color: rgb(221, 212, 199,0.4);
+    padding: 5vh 5vw 5vh 5vw;
+    display: flex;
+    margin: 10vh 5vw 10vh 5vw;
+    align-items: center;
+   
+ }
+ .place1-description{
+padding:  0px 5vw 0vh 0px;
+height: 40vh;
+width:55vw ;
+overflow-y: auto;
+ }
+ .place1-img{
+    margin-left: 3vw;
+    height:40vh;
+    width: 50vw;
+    
+ }
+
+
+
+ /*    place-2     */
+
+
+ .place2{
+    border-radius: 30px;
+    background-color: rgb(221, 212, 199,0.4);
+    padding: 5vh 5vw 5vh 5vw;
+    display: flex;
+    margin: 10vh 5vw 10vh 5vw;
+    align-items: center;
+ }
+
+ .place2-description{
+    padding:  0px 0px 0vh 5vw;
+    height: 40vh;
+    width:55vw ;
+    overflow-y: auto;
+    }
+
+
+ .place2-img{
+    margin-right: 3vw;
+    height:40vh;
+    width: 50vw;
+    
+ }
+
+
+ footer{
+    padding:4vh  0px 4vh 0px;
+    background-color: antiquewhite;
+    text-align: center;
+ }

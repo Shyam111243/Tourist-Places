@@ -1,0 +1,28 @@
+
+header h1{
+    font-size: 8vh;
+}
+
+header ul li{
+    font-size: 3vh;
+}
+.map .Description{
+    font-size: 3vh;
+}
+.place-head h1{
+    font-size: 10vh;
+}
+
+.place1-description{
+    
+    font-size: 4vh;
+}
+
+.place2-description{
+    
+    font-size: 4vh;
+}
+
+footer{
+    font-size: 5vh;
+}

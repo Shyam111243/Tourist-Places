@@ -1,0 +1,19 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@500&display=swap');
+
+header h1{
+    font-family: 'Eczar', serif;
+    font-size: 50px;
+}
+
+.headerTag li{
+    font-family: 'Eczar', serif;
+    list-style: none;
+    font-size: 20px;
+}
+
+footer{
+    font-size: 2.2vw;
+    font-weight: 450;
+}

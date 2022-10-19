@@ -1,0 +1,56 @@
+
+
+.fadeBackground{
+    z-index: -1;
+    position: absolute;
+    position: fixed;
+    height: 110vh;
+    width:100%; 
+     background-image: url(../mainBackground/1.jpg);
+    background-size: cover;
+    transition: 2s;
+
+    animation:animate;
+    animation-direction: normal;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+    animation-duration: 50s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animate{
+   
+    0%{
+        background-image: url(../mainBackground/2.jpg);
+    }
+    10%{
+        background-image: url(../mainBackground/3.jpg);
+    }
+    20%{
+        background-image: url(../mainBackground/4.jpg);
+    }
+    30%{
+        background-image: url(../mainBackground/5.jpeg);
+    }
+    40%{
+        background-image: url(../mainBackground/6.jpeg);
+    }
+    50%{
+        background-image: url(../mainBackground/1.jpg);
+    }
+    60%{
+        background-image: url(../mainBackground/8.jpg);
+    }
+    70%{
+        background-image: url(../mainBackground/9.jpeg);
+    }
+    80%{
+        background-image: url(../mainBackground/10.jpg);
+    }
+    100%{
+        background-image: url(../mainBackground/1.jpg);
+    }
+}
+
+
